@@ -62,6 +62,10 @@ of the work and time I have put into this, Have a great summer!
 1. Compile source code: `javac src/StartUp.java`
 2. Start the game: `java src/StartUp`
 
+#### Map Editor
+1. Compile source code: `javac src/MapEditor.java`
+2. Start the game: `java src/MapEditor`
+
 </details>
 
 ## License
