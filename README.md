@@ -16,12 +16,15 @@
 ## Table of Contents
 - [Castles & Wizards](#top)
   - [About](#about)
+    - [Controls](#controls)
     - [Built With](#built-with)
   - [Setup](#setup)
     - [Development](#development)
   - [License](#license)
 
 ## About
+
+This game was built as my grade 11 computer programing final project. The grading was based on demonstrating different programing structures such as ifs, loops, etc... I chose to build a simple RPG.
 
 Castles and Wizards is a game engine that reads pre-made text files to create its enviroment including: chests, conversations & maps. Configuration files & maps can be found inside `/Objects/...`. 
 
