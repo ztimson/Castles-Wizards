@@ -24,6 +24,8 @@
 
 ## About
 
+![Screenshot](./screenshot.gif)
+
 This game was built as my grade 11 computer programing final project. The grading was based on demonstrating different programing structures such as ifs, loops, etc... I chose to build a simple RPG.
 
 Castles and Wizards is a game engine that reads pre-made text files to create its enviroment including: chests, conversations & maps. Configuration files & maps can be found inside `/Objects/...`. 
@@ -50,12 +52,8 @@ The game comes with a basic map editor to aid in building maps quickly. Maps are
 - [Java SDK](https://www.oracle.com/ca-en/java/technologies/downloads)
 
 #### Instructions
-1. Compile source code: `javac src/StartUp.java`
-2. Start the game: `java src/StartUp`
-
-#### Map Editor
-1. Compile source code: `javac src/MapEditor.java`
-2. Start the game: `java src/MapEditor`
+1. Compile source code: `cd src && javac StartUp.java`
+2. Start the game: `java StartUp`
 
 </details>
 

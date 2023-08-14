@@ -216,7 +216,7 @@ public class StartUp implements Runnable {
 			armor = scan1.next(); // armor equipped
 			shield = scan1.next(); // shield equipped
 			scan1.close();
-			
+
 			// apply stat "boosts" for equiped items
 			if (helmet.equals("helmet")) {
 				helmetVal = 10;
@@ -370,7 +370,7 @@ public class StartUp implements Runnable {
 			panel6.setVisible(mapToggle);
 
 			mapLoader(); // Load the map
-			
+
 			// buffer character sprite images
 			new ImageIcon(animatedDir + "upC.gif");
 			new ImageIcon(animatedDir + "upR.gif");
@@ -442,7 +442,7 @@ public class StartUp implements Runnable {
 						} catch (Exception e) {
 						}
 					}
-					
+
 					//load overlapping image
 					if (value[x][y] == 11) { // bolder
 						placeHolder[x][y].setIcon(new ImageIcon(dir
@@ -460,7 +460,7 @@ public class StartUp implements Runnable {
 						placeHolder[x][y].setIcon(new ImageIcon(dir
 								+ "Images/Tiles/shop.gif"));
 					}
-					
+
 					// load tiles that have a corresponding action
 					if (value[x][y] == 15 || value[x][y] >= 17
 							&& value[x][y] <= 22) {
@@ -482,7 +482,7 @@ public class StartUp implements Runnable {
 							} else {
 								scan3.nextLine();
 							}
-							
+
 						//test to see if the players observation is high enough to see pathway
 						} else if (value[x][y] == 21) {
 							if (observation < Integer
@@ -595,7 +595,7 @@ public class StartUp implements Runnable {
 				bonus.setForeground(color1);
 				inv.add(bonus);
 				JLabel info = new JLabel("Health: " + curHealth + "/" + health
-						+ "    Money: £" + money, SwingConstants.CENTER);
+						+ "    Money: $" + money, SwingConstants.CENTER);
 				info.setFont(new Font("Times New Roman", Font.BOLD, 30));
 				info.setForeground(new Color(255, 255, 255, 255));
 				inv.add(info, BorderLayout.SOUTH);
@@ -636,7 +636,7 @@ public class StartUp implements Runnable {
 			} else if (value[xSpot][ySpot] >= 8 && value[xSpot][ySpot] <= 10) {
 				steps++;
 			}
-			
+
 			// chance of being attacked
 			if (randomSteps == steps) {
 				steps = 0;
@@ -722,10 +722,10 @@ public class StartUp implements Runnable {
 					} else if (i == 12 && chestItems[i] > 0) {
 						mdl.addElement("Potion x" + chestItems[i]);
 					} else if (i == 13 && chestItems[i] > 0) {
-						mdl.addElement("£" + chestItems[i]);
+						mdl.addElement("$" + chestItems[i]);
 					}
 				}
-				
+
 				// update chest to being empty
 				PrintWriter out3 = null;
 				try {
@@ -925,7 +925,7 @@ public class StartUp implements Runnable {
 						Thread.sleep(100);
 						fpanel2.setBounds(450, 0, 400, 300);
 						Thread.sleep(250);
-						
+
 						// he missed
 						if (agility + eAccuracy >= (int) (Math.random() * 99) + 1) {
 							// Possibility of your agility stat going up
@@ -989,7 +989,7 @@ public class StartUp implements Runnable {
 				dirX = +1;
 				dirY = 0;
 			}
-			
+
 			// change image to the direction the character
 			Sprite.setIcon(new ImageIcon(animatedDir + move + "C.gif"));
 			new Thread(new Runnable() {
@@ -1431,7 +1431,7 @@ public class StartUp implements Runnable {
 								frame2.setVisible(false);
 								frame2.dispose();
 								money = money + (int)((Math.random()*300)+1);
-								mdl.addElement("You now have £" + money);
+								mdl.addElement("You now have $" + money);
 							} else {
 								Thread.sleep(900);
 								Game.opponent();
@@ -1501,7 +1501,7 @@ public class StartUp implements Runnable {
 										System.exit(0);
 									}
 									money = money + (int)((Math.random()*300)+1);
-									mdl.addElement("You now have £" + money);
+									mdl.addElement("You now have $" + money);
 								} else {
 									Thread.sleep(900);
 									Game.opponent();

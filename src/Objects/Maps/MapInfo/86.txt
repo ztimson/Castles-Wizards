@@ -1,0 +1,12 @@
+85.txt
+0
+20
+<HTML> To the Castle.
+<HTML> Danger! Castle of Fire and Frost <br> Ahead!
+76.txt
+0
+19
+<HTML> The Dark Forest
+87.txt
+0
+19

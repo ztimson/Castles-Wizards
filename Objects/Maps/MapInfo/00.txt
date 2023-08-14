@@ -1,7 +1,0 @@
-1.txt
-<HTML> Help! Help! The town has been <br> invaded and the citizens have <br> been taken! The city is just <br> on the other side of <br> The Great Maze!
-person1.gif
-10.txt
-0
-19
-<HTML> Danger Ahead! <br> The Dark Cave

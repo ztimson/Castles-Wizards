@@ -1,0 +1,7 @@
+<HTML>The Great Maze
+52.txt
+0
+19
+72.txt
+0
+20
