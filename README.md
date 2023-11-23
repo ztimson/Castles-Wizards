@@ -24,7 +24,7 @@
 
 ## About
 
-![Screenshot](./screenshot.gif)
+<img alt="Screenshot" src="./screenshot.gif" width="60%" height="auto">
 
 This game was built as my grade 11 computer programing final project. The grading was based on demonstrating different programing structures such as ifs, loops, etc... I chose to build a simple RPG.
 
